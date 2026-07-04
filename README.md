@@ -20,7 +20,7 @@ XYZ Technical Solutions recently lost an important employee to a mental-health-r
 | Stigma & disclosure | mental_health_consequence, phys_health_consequence, coworkers, supervisor, mental_health_interview, phys_health_interview, mental_vs_physical, obs_consequence |
 | Target | treatment, work_interfere, family_history |
 
-Source file: [`[data/employee_wellness_dataset.csv](https://github.com/DishaBisht75/employee-wellness-eda/blob/main/employee_wellness_dataset.csv)`](https://github.com/DishaBisht75/employee-wellness-eda/blob/main/employee_wellness_dataset.csv) 
+Source file: [`[data/employee_wellness_dataset.csv]`](https://github.com/DishaBisht75/employee-wellness-eda/blob/main/employee_wellness_dataset.csv) 
 
 ## Approach
 
@@ -33,17 +33,6 @@ Source file: [`[data/employee_wellness_dataset.csv](https://github.com/DishaBish
    - Leave Accessibility Score
    - Family Risk Flag
 3. **EDA** — univariate (bar/histogram), bivariate (box plots vs. treatment), and multivariate analysis (correlation heatmap, pair plot, violin plots, stacked bar charts).
-
-## Key Visuals
-
-**Correlation between KPIs**
-![Correlation Heatmap](images/correlation_heatmap.png)
-
-**Work interference is the strongest split by treatment need**
-![Interference vs Treatment](images/interference_vs_treatment.png)
-
-**KPI scores compared across treatment groups**
-![KPI Boxplot](images/kpi_boxplot_vs_treatment.png)
 
 ## Key Insights
 
@@ -73,23 +62,6 @@ Source file: [`[data/employee_wellness_dataset.csv](https://github.com/DishaBish
 - matplotlib, seaborn
 - Jupyter Notebook
 
-## Repository Structure
-
-```
-employee-wellness-eda/
-├── data/
-│   └── employee_wellness_dataset.csv
-├── notebooks/
-│   └── employee_wellness_analysis.ipynb
-├── images/
-│   ├── correlation_heatmap.png
-│   ├── interference_vs_treatment.png
-│   └── kpi_boxplot_vs_treatment.png
-├── requirements.txt
-├── .gitignore
-└── README.md
-```
-
 ## How to Run
 
 ```bash
@@ -101,5 +73,4 @@ jupyter notebook notebooks/employee_wellness_analysis.ipynb
 
 ## Author
 
-Disha Bisht
-www.linkedin.com/in/disha-bisht-00255935a
+Disha Bisht - www.linkedin.com/in/disha-bisht-00255935a
