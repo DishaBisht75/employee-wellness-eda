@@ -20,7 +20,7 @@ XYZ Technical Solutions recently lost an important employee to a mental-health-r
 | Stigma & disclosure | mental_health_consequence, phys_health_consequence, coworkers, supervisor, mental_health_interview, phys_health_interview, mental_vs_physical, obs_consequence |
 | Target | treatment, work_interfere, family_history |
 
-Source file: [`data/employee_wellness_dataset.csv`](data/employee_wellness_dataset.csv)
+Source file: [`[data/employee_wellness_dataset.csv](https://github.com/DishaBisht75/employee-wellness-eda/blob/main/employee_wellness_dataset.csv)`](https://github.com/DishaBisht75/employee-wellness-eda/blob/main/employee_wellness_dataset.csv) 
 
 ## Approach
 
