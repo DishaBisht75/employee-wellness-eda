@@ -2,6 +2,8 @@
 
 Exploratory data analysis on an employee mental health survey to identify workplace factors linked with treatment-seeking behavior, with KPI engineering and visual insights for HR intervention planning.
 
+Implemented in both Python and R to demonstrate the same analysis across both ecosystems.
+
 ## Business Problem
 
 XYZ Technical Solutions recently lost an important employee to a mental-health-related incident. In response, the company wants to proactively understand which employees may need mental health support — before it becomes a crisis. This project analyzes existing employee survey data to uncover the workplace factors (support programs, stigma, work interference, leave policy, etc.) most associated with a need for treatment, so HR can design targeted wellness interventions.
@@ -20,7 +22,7 @@ XYZ Technical Solutions recently lost an important employee to a mental-health-r
 | Stigma & disclosure | mental_health_consequence, phys_health_consequence, coworkers, supervisor, mental_health_interview, phys_health_interview, mental_vs_physical, obs_consequence |
 | Target | treatment, work_interfere, family_history |
 
-Source file: [`[data/employee_wellness_dataset.csv]`](https://github.com/DishaBisht75/employee-wellness-eda/blob/main/employee_wellness_dataset.csv) 
+Source file: employee_wellness_dataset.csv
 
 ## Approach
 
@@ -57,19 +59,35 @@ Source file: [`[data/employee_wellness_dataset.csv]`](https://github.com/DishaBi
 
 ## Tech Stack
 
-- Python
-- pandas, numpy
-- matplotlib, seaborn
-- Jupyter Notebook
+Python
 
-## How to Run
+pandas, numpy
+matplotlib, seaborn
+Jupyter Notebook
 
-```bash
-git clone https://github.com/<your-username>/employee-wellness-eda.git
+R
+
+tidyverse (dplyr, ggplot2, tidyr)
+corrplot
+GGally
+
+
+How to Run
+
+Python
+
+git clone https://github.com/DishaBisht75/employee-wellness-eda.git
 cd employee-wellness-eda
-pip install -r requirements.txt
-jupyter notebook notebooks/employee_wellness_analysis.ipynb
-```
+pip install -r Requirements.txt
+jupyter notebook employee_wellness_analysis.ipynb
+
+R
+
+git clone https://github.com/DishaBisht75/employee-wellness-eda.git
+cd employee-wellness-eda/r
+# In RStudio: install.packages(c("tidyverse", "corrplot", "GGally", "scales"))
+# Open employee_wellness_eda.R and click Source
+
 
 ## Author
 
